@@ -1,0 +1,1 @@
+#include<stdio.h>int main(){	char c;	char newLine = '\n';			while(c != EOF) {		c = getchar(); 				if (c == ' '){			write(1, &newLine, 1);		}				else {			write(1, &c, 1);				}			}			write(1, &newLine, 1);		return 0;}
